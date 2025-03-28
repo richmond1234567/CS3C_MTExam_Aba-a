@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature Projects - Your Name</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Featured Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="feature.html">Feature Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Explore My Featured Projects</h2>
+    </section>
+
+    <section class="content">
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="assets/feature1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+                <p>Price: Php 10</p>
+                <button onclick="addToCart('Project 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/feature2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Description of Project 2.</p>
+                <p>Price: Php 15</p>
+                <button onclick="addToCart('Project 2', 15)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/feature3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Description of Project 3.</p>
+                <p>Price: Php 20</p>
+                <button onclick="addToCart('Project 3', 20)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/feature4.jpg" alt="Project 4">
+                <h3>Project 4</h3>
+                <p>Description of Project 4.</p>
+                <p>Price: Php 25</p>
+                <button onclick="addToCart('Project 4', 25)">Add to Cart</button>
+            </div>
+        </div>
+
+        <aside class="cart">
+            <h3>Cart</h3>
+            <ul id="cart-list"></ul>
+            <p>Total Price: <span id="total-price">Php 0</span></p>
+        </aside>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
